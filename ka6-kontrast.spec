@@ -42,6 +42,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Kontrast is a color contrast checker and tell you if your color
 combinations are accessible for people with color vision defiencies.
 
+%description -l pl.UTF-8
+Kontrast jest programem do sprawdzania kontrastu barw, który mówi
+jakie połączenia barw są wystarczająco różne, aby były czytelne i nie
+sprawiały trudności z dostępnością.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
